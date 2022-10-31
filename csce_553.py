@@ -157,6 +157,7 @@ def save_graph(gr, savepath, file):
         os.makedirs(savepath)
         
     nx.write_gml(gr, savepath + file)
+    print("File saved at: ")
     print(savepath + file) 
  
     
