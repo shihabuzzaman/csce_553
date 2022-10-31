@@ -26,4 +26,4 @@ jobs:
         pylint --disable=R,C csce_553.py
     - name: Test with unittest
       run: |
-        unittest test.py
+        python -m unittest test.py
